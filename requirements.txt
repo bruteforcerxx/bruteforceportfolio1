@@ -35,8 +35,6 @@ django-rest-auth==0.9.5
 django-rest-swagger==2.2.0
 django-templated-mail==1.1.1
 djangorestframework==3.11.0
-djangorestframework-jwt==1.11.0
-djangorestframework-simplejwt==4.4.0
 djoser==2.0.3
 download-gitignore==2.0.1
 drf-writable-nested==0.6.0
