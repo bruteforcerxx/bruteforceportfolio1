@@ -6,10 +6,16 @@ commands = [
     'git commit -m "firstcommit"',
     'git branch -M main',
     'git remote add origin https://github.com/bruteforcerxx/bruteforceportfolio1.git',
-    'git push -u origin main'
+    'git push -f origin main'
 ]
 
-for c in commands:
+commands2 = [
+    'git add .',
+    'git commit -m "firstcommit"',
+    'git push -f origin main'
+]
+
+for c in commands2:
     cmm = os.popen(c)
     cmm = cmm.read()
     print(cmm)
